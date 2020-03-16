@@ -1,10 +1,10 @@
 {
-  "_myNewPackage.myNewPackage": {
-    "link": "https://github.com/mnpjs/package#async-mynewpackageconfig-config-string",
-    "description": "{{ description }}"
+  "_bootstrap.bootstrap": {
+    "link": "https://github.com/bootstrapjs/package#async-mynewpackageconfig-config-string",
+    "description": "Bootstrap Class Properties, Elements And Types Definitions For JSX."
   },
-  "_myNewPackage.Config": {
-    "link": "https://github.com/mnpjs/package#type-config",
+  "_bootstrap.Config": {
+    "link": "https://github.com/bootstrapjs/package#type-config",
     "description": "Options for the program."
   }
 }

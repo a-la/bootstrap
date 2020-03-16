@@ -1,6 +1,6 @@
-<types namespace="_myNewPackage">
-  <method name="myNewPackage" async return="string">
-    <arg type="!_myNewPackage.Config" name="config">The config.</arg>
-    {{ description }}
+<types namespace="_bootstrap">
+  <method name="bootstrap" async return="string">
+    <arg type="!_bootstrap.Config" name="config">The config.</arg>
+    Bootstrap Class Properties, Elements And Types Definitions For JSX.
   </method>
 </types>

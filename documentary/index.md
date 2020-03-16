@@ -1,11 +1,11 @@
-# my-new-package
+# @a-la/bootstrap
 
-%NPM: my-new-package%
+%NPM: @a-la/bootstrap%
 
-`my-new-package` is {{ description }}
+`@a-la/bootstrap` is Bootstrap Class Properties, Elements And Types Definitions For JSX.
 
 ```sh
-yarn add my-new-package
+yarn add @a-la/bootstrap
 ```
 
 ## Table Of Contents

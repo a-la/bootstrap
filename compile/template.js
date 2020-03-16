@@ -1,12 +1,12 @@
-const { _myNewPackage } = require('./mnp')
+const { _bootstrap } = require('./bootstrap')
 
 /**
- * @methodType {_myNewPackage.myNewPackage}
+ * @methodType {_bootstrap.bootstrap}
  */
-function myNewPackage(config) {
-  return _myNewPackage(config)
+function bootstrap(config) {
+  return _bootstrap(config)
 }
 
-module.exports = myNewPackage
+module.exports = bootstrap
 
 /* typal types/index.xml namespace */

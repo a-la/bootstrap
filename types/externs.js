@@ -5,26 +5,26 @@
 
 /* typal types/index.xml externs */
 /** @const */
-var _myNewPackage = {}
+var _bootstrap = {}
 /**
  * Options for the program.
  * @record
  */
-_myNewPackage.Config
+_bootstrap.Config
 /**
  * A boolean option. Default `true`.
  * @type {boolean|undefined}
  */
-_myNewPackage.Config.prototype.shouldRun
+_bootstrap.Config.prototype.shouldRun
 /**
  * A text to return.
  * @type {string|undefined}
  */
-_myNewPackage.Config.prototype.text
+_bootstrap.Config.prototype.text
 
 /* typal types/api.xml externs */
 /**
- * {{ description }}
- * @typedef {function(!_myNewPackage.Config): !Promise<string>}
+ * Bootstrap Class Properties, Elements And Types Definitions For JSX.
+ * @typedef {function(!_bootstrap.Config): !Promise<string>}
  */
-_myNewPackage.myNewPackage
+_bootstrap.bootstrap

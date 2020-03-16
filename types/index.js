@@ -2,10 +2,10 @@ export {}
 
 /* typal types/api.xml namespace */
 /**
- * @typedef {_myNewPackage.myNewPackage} myNewPackage {{ description }}
- * @typedef {(config: !_myNewPackage.Config) => string} _myNewPackage.myNewPackage {{ description }}
+ * @typedef {_bootstrap.bootstrap} bootstrap Bootstrap Class Properties, Elements And Types Definitions For JSX.
+ * @typedef {(config: !_bootstrap.Config) => string} _bootstrap.bootstrap Bootstrap Class Properties, Elements And Types Definitions For JSX.
  */
 
 /**
- * @typedef {import('..').Config} _myNewPackage.Config
+ * @typedef {import('..').Config} _bootstrap.Config
  */

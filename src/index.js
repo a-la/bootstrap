@@ -1,19 +1,19 @@
 import { c } from 'erte'
 
 /**
- * @type {_myNewPackage.myNewPackage}
+ * @type {_bootstrap.bootstrap}
  */
-export default async function myNewPackage(config = {}) {
+export default async function bootstrap(config = {}) {
   const {
     shouldRun = true,
     text = '',
   } = config
   if (!shouldRun) return ''
-  console.log('my-new-package called with %s', c(text, 'yellow'))
+  console.log('@a-la/bootstrap called with %s', c(text, 'yellow'))
   return text
 }
 
 /**
  * @suppress {nonStandardJsDocs}
- * @typedef {import('../types').myNewPackage} _myNewPackage.myNewPackage
+ * @typedef {import('../types').bootstrap} _bootstrap.bootstrap
  */
