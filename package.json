@@ -12,6 +12,7 @@
     "lib": "depack src/depack.js -o compile/bootstrap.js -a -c --source_map_include_content",
     "bootstrap": "alanode bootstrap",
     "types": "alanode bootstrap/types",
+    "wiki": "doc wiki -W wiki.git -d",
     "test-compile": "yarn test -e test-compile",
     "lint": "eslint .",
     "doc": "doc -o README.md -n _bootstrap -a -d",

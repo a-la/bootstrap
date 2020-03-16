@@ -1,18 +1,17 @@
-## API
+## Usage
 
-The package is available by importing its default function:
+By installing this package, you will be able to specify classes on tags and components as JSX properties when using [`alamode`](https://github.com/a-la/alamode) transpiler.
 
-```js
-import bootstrap from '@a-la/bootstrap'
-```
+To receive access to auto-completions, you'll need to import the `@a-la/bootstrap` package in your source code:
+
+%EXAMPLE: example, ../ => @a-la/bootstrap%
+
+The actual import doesn't do anything as the source file is blank. It is needed only for VSCode to pick up distributed typings.
 
 %~%
 
-<typedef method="bootstrap">types/api.xml</typedef>
+## Closure Stylesheets
 
-<typedef>types/index.xml</typedef>
-
-%EXAMPLE: example, ../src => @a-la/bootstrap%
-%FORK example%
+An annotated version of Bulma 0.8.0 is available in `bootstrap/bootstrap.css` where `/* @alternate */` annotations were added for compatibility with [Closure Stylesheets](https://github.com/artdecocode/closure-stylsheets-java).
 
 %~%
