@@ -9,7 +9,7 @@ yarn add -D @a-la/bootstrap
 npm i --save-dev @a-la/bootstrap
 ```
 
-<img src="./doc/modal.gif" alt="modal autocompletions">
+<img src="./doc/container.gif" alt="bootstrap container autocompletions">
 
 ## Table Of Contents
 
@@ -40,6 +40,8 @@ import bootstrap from '../src'
 ```
 
 The actual import doesn't do anything as the source file is blank. It is needed only for VSCode to pick up distributed typings.
+
+See the <kbd>📙 [full list of Bootstrap classes](../../wiki/Classes)</kbd> in Wiki.
 
 <p align="center"><a href="#table-of-contents">
   <img src="/.documentary/section-breaks/1.svg?sanitize=true">

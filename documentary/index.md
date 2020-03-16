@@ -9,7 +9,7 @@ yarn add -D @a-la/bootstrap
 npm i --save-dev @a-la/bootstrap
 ```
 
-<img src="./doc/modal.gif" alt="modal autocompletions">
+<img src="./doc/container.gif" alt="bootstrap container autocompletions">
 
 ## Table Of Contents
 
