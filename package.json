@@ -24,10 +24,9 @@
   "types": "types/index.d.ts",
   "files": [
     "src",
-    "boostrap",
+    "bootstrap",
     "types/index.d.ts"
   ],
-  "externs": "types/externs.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/a-la/bootstrap.git"
