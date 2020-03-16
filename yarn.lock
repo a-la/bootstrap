@@ -22,10 +22,15 @@
   resolved "https://registry.yarnpkg.com/@zoroaster/mask/-/mask-2.6.1.tgz#bbb2c2a43e126e1fcb5de0a0c37192f1f7cc426e"
   integrity sha512-KTHuxgzt8cQCs53H/EEWc3MaPVNyZXrcTYGLY7soiIBJiAsTpBJezCEsWn14Qhrf0UTVGI6EDE0SYQS9hfSjVg==
 
-alamode@^3.3.3, alamode@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/alamode/-/alamode-3.5.2.tgz#0d6fd9a4bbfaf3ecc488d636264c480a825e9bd4"
-  integrity sha512-lKEFyLAYj6I6WURR7YYaclGpQNPwCoPYkbYZSl5vka9n15cfZlSbPkrzivB6F6IXEkAtt7jGAl60V3qyPTEwdQ==
+alamode@^3.3.3, alamode@^3.5.2, alamode@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/alamode/-/alamode-3.7.1.tgz#62e71512cd535d26811fc852933293ac73015df1"
+  integrity sha512-Vy2w3qhjyDqwiy1sX0NzVgw7tc3vy/OAoBfV88EaS7PzI4Qo/uwpnhWmWBw38su3LdkBUJV2imRmJLScizf48A==
+
+closure-stylesheets@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/closure-stylesheets/-/closure-stylesheets-1.0.1.tgz#7200114f9ff053cdd48e0593e06616fe4003fb6e"
+  integrity sha512-/gMedWvGZ6ThWskUYtxHkR80N8sH4vF0l8trpjoXuz+5jbPC+3HdCNZF11EW18ZitOx4p1XwwOwpTd9wPwyoTg==
 
 depack@^1.1.2:
   version "1.1.2"

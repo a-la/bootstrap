@@ -2,7 +2,7 @@
   "name": "@a-la/bootstrap",
   "version": "0.0.0-pre",
   "description": "Bootstrap Class Properties, Elements And Types Definitions For JSX.",
-  "main": "compile/index.js",
+  "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
     "t": "zoroaster -a",
@@ -10,6 +10,8 @@
     "spec": "yarn t test/spec",
     "mask": "yarn t test/mask",
     "lib": "depack src/depack.js -o compile/bootstrap.js -a -c --source_map_include_content",
+    "bootstrap": "alanode bootstrap",
+    "types": "alanode bootstrap/types",
     "test-compile": "yarn test -e test-compile",
     "lint": "eslint .",
     "doc": "doc -o README.md -n _bootstrap -a -d",
@@ -18,11 +20,11 @@
     "template": "typal compile/template.js -T compile/index.js -t types/api.xml",
     "externs": "typal types/externs.js"
   },
+  "types": "types/index.d.ts",
   "files": [
     "src",
-    "compile",
-    "types/externs.js",
-    "typedefs.json"
+    "boostrap",
+    "types/index.d.ts"
   ],
   "externs": "types/externs.js",
   "repository": {
@@ -43,7 +45,8 @@
   },
   "homepage": "https://www.artd.eco",
   "devDependencies": {
-    "alamode": "^3.5.2",
+    "alamode": "^3.7.1",
+    "closure-stylesheets": "^1.0.1",
     "depack": "^1.1.2",
     "documentary": "^1.37.1",
     "erte": "^1.2.0",
