@@ -28,15 +28,11 @@ By installing this package, you will be able to specify classes on tags and comp
 
 To receive access to auto-completions, you'll need to import the `@a-la/bootstrap` package in your source code:
 
-```js
-import bootstrap from '../src'
+```jsx
+import '@a-la/bootstrap'
 
-(async () => {
-  const res = await bootstrap({
-    text: 'example',
-  })
-  console.log(res)
-})()
+export const Component =
+  () => (<div container>Hello World</div>)
 ```
 
 The actual import doesn't do anything as the source file is blank. It is needed only for VSCode to pick up distributed typings.
