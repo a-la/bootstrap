@@ -15,6 +15,7 @@ npm i --save-dev @a-la/bootstrap
 
 - [Table Of Contents](#table-of-contents)
 - [Usage](#usage)
+- [Bootstrap Classes](#bootstrap-classes)
 - [Closure Stylesheets](#closure-stylesheets)
 - [Copyright & License](#copyright--license)
 
@@ -37,10 +38,18 @@ export const Component =
 
 The actual import doesn't do anything as the source file is blank. It is needed only for VSCode to pick up distributed typings.
 
-See the <kbd>📙 [full list of Bootstrap classes](../../wiki/Classes)</kbd> in Wiki.
+Because of [a bug](https://github.com/microsoft/TypeScript/issues/28905) in VSCode, you won't see properties with hyphens, e.g., `container-fluid` and will only see `containerFluid`, but you can actually use both. The camel cases are added for discoverability of classes.
 
 <p align="center"><a href="#table-of-contents">
   <img src="/.documentary/section-breaks/1.svg?sanitize=true">
+</a></p>
+
+## Bootstrap Classes
+
+See the <kbd>📙 [full list of Bootstrap classes](../../wiki/Classes)</kbd> in Wiki.
+
+<p align="center"><a href="#table-of-contents">
+  <img src="/.documentary/section-breaks/2.svg?sanitize=true">
 </a></p>
 
 ## Closure Stylesheets
@@ -48,7 +57,7 @@ See the <kbd>📙 [full list of Bootstrap classes](../../wiki/Classes)</kbd> in 
 An annotated version of Bulma 0.8.0 is available in `bootstrap/bootstrap.css` where `/* @alternate */` annotations were added for compatibility with [Closure Stylesheets](https://github.com/artdecocode/closure-stylsheets-java).
 
 <p align="center"><a href="#table-of-contents">
-  <img src="/.documentary/section-breaks/2.svg?sanitize=true">
+  <img src="/.documentary/section-breaks/3.svg?sanitize=true">
 </a></p>
 
 ## Copyright & License
@@ -56,7 +65,15 @@ An annotated version of Bulma 0.8.0 is available in `bootstrap/bootstrap.css` wh
 GNU Affero General Public License v3.0
 
 <table>
-  <tr><td><img src="https://avatars1.githubusercontent.com/u/41520309?v=4&amp;s=100" alt="a-la"></td><td>© <a href="https://alamode.cc">À La Mode</a> 2020</td></tr>
+  <tr>
+    <th>
+      <a href="https://www.artd.eco">
+        <img width="100" src="https://raw.githubusercontent.com/wrote/wrote/master/images/artdeco.png"
+          alt="Art Deco">
+      </a>
+    </th>
+    <th>© <a href="https://www.artd.eco">Art Deco™</a>   2020</th>
+  </tr>
 </table>
 
 <p align="center"><a href="#table-of-contents">
