@@ -4,12 +4,14 @@
 
 `@a-la/bootstrap` is Bootstrap Class Properties, Elements And Types Definitions For JSX.
 
+<p align="center">
+  <img src="./doc/container.gif" alt="bootstrap container autocompletions">
+</p>
+
 ```sh
 yarn add -D @a-la/bootstrap
 npm i --save-dev @a-la/bootstrap
 ```
-
-<img src="./doc/container.gif" alt="bootstrap container autocompletions">
 
 ## Table Of Contents
 
@@ -72,7 +74,7 @@ GNU Affero General Public License v3.0
           alt="Art Deco">
       </a>
     </th>
-    <th>© <a href="https://www.artd.eco">Art Deco™</a>   2020</th>
+    <th>© <a href="https://www.artd.eco">Art Deco™</a> for <a href="https://alamode.cc">À La Mode</a> 2020</th>
   </tr>
 </table>
 
