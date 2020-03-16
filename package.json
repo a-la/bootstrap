@@ -1,6 +1,6 @@
 {
   "name": "@a-la/bootstrap",
-  "version": "0.0.0-pre",
+  "version": "1.0.0",
   "description": "Bootstrap Class Properties, Elements And Types Definitions For JSX.",
   "main": "src/index.js",
   "module": "src/index.js",
