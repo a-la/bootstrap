@@ -11,7 +11,9 @@
     "mask": "yarn t test/mask",
     "lib": "depack src/depack.js -o compile/bootstrap.js -a -c --source_map_include_content",
     "bootstrap": "alanode bootstrap",
-    "types": "alanode bootstrap/types",
+    "react": "alanode dev/react",
+    "preact": "alanode dev/preact",
+    "types": "yarn-s react preact",
     "wiki": "doc wiki -W wiki.git -d",
     "test-compile": "yarn test -e test-compile",
     "lint": "eslint .",
@@ -25,6 +27,7 @@
   "files": [
     "src",
     "bootstrap",
+    "preact",
     "types/index.d.ts"
   ],
   "repository": {

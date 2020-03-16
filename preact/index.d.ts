@@ -1,7 +1,8 @@
-import 'react'
+import 'preact'
 
-declare module 'react' {
-  interface HTMLAttributes {
+declare global {
+  namespace JSX {
+    interface HTMLAttributes {
     /**
      * Add Bootstrap's `.h1` class to the element.
      */
@@ -12122,5 +12123,6 @@ declare module 'react' {
      * Add Bootstrap's `.text-reset` class to the element. Alias for `text-reset` prop.
      */
     textReset?: boolean
+    }
   }
 }

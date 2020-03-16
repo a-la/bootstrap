@@ -1,12 +1,12 @@
 import { EOL } from 'os'
-import classes from './map'
-import camel from './camel'
+import classes from '../bootstrap/map'
+import camel from '../bootstrap/camel'
 import { writeFileSync } from 'fs'
 
 const T = (tt) => `import 'react'
 
 declare module 'react' {
-  interface HTMLAttributes<T> {
+  interface HTMLAttributes {
 ${tt}
   }
 }`
